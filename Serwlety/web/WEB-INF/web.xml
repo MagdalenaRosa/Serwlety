@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="5.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+    <servlet>
+        <servlet-name>SerwletWitaj</servlet-name>
+        <servlet-class>pai.servlets.SerwletWitaj</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SewletFormularz</servlet-name>
+        <servlet-class>pai.servlets.SerwletFormularz</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SerwletObraz</servlet-name>
+        <servlet-class>pai.servlets.SerwletObraz</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SerwletWitaj</servlet-name>
+        <url-pattern>/SerwletWitaj</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SewletFormularz</servlet-name>
+        <url-pattern>/SewletFormularz</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SerwletObraz</servlet-name>
+        <url-pattern>/SerwletObraz</url-pattern>
+    </servlet-mapping>
+</web-app>
